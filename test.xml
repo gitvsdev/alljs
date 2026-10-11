@@ -1,6 +1,15 @@
 
-<krpano version="1.22">
-  <data name="test_message">
-    GitHub XML Loading Successful!
-  </data>
+<krpano version="1.24">
+  <layer name="github_external_test"
+         type="text"
+         keep="true"
+         visible="true"
+         align="top"
+         y="30"
+         width="420"
+         height="60"
+         bgcolor="0xFFFF00"
+         bgalpha="1.0"
+         html="GITHUB EXTERNAL XML SUCCESSFUL!"
+         css="font-family:Arial; font-size:22px; color:#000000; text-align:center;" />
 </krpano>
