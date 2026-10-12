@@ -1,0 +1,16 @@
+
+{
+  "default": {
+    "firstScene": "mountain",
+    "autoLoad": true,
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+    "mountain": {
+      "title": "My 360 Mountain Virtual Tour",
+      "type": "equirectangular",
+      "panorama": "panorama.jpg",
+      "hfov": 110
+    }
+  }
+}
