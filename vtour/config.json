@@ -9,7 +9,7 @@
 },
   "scenes": {
     "mountain": {
-      "title": "WordPress External JSON Test Successful",
+      "title": "Direct GitHub JSON Loading Verified",
       "type": "equirectangular",
       "panorama": "panorama.jpg",
       "hfov": 110
