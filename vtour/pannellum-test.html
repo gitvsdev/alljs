@@ -25,7 +25,14 @@
 
   <script>
     
-fetch('config.json')
+const params = new URLSearchParams(window.location.search);
+const selected = params.get('config');
+
+// Only allow our two approved JSON files.
+const configFile =
+  selected === '2' ? 'config2.json' : 'config.json';
+
+fetch(configFile)
   .then(response => {
     if (!response.ok) {
       throw new Error('HTTP ' + response.status);
