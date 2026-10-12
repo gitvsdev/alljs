@@ -9,7 +9,7 @@
 },
   "scenes": {
     "mountain": {
-      "title": "Beautiful Mountain Panorama 2026",
+      "title": "WordPress External JSON Test Successful",
       "type": "equirectangular",
       "panorama": "panorama.jpg",
       "hfov": 110
