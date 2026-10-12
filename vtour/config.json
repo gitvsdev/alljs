@@ -4,7 +4,7 @@
   "firstScene": "mountain",
   "autoLoad": true,
   "sceneFadeDuration": 1000,
-  "autoRotate": -2,
+  "autoRotate": 10,
   "autoRotateInactivityDelay": 3000
 },
   "scenes": {
