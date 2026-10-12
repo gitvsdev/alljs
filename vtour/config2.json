@@ -7,7 +7,7 @@
   },
   "scenes": {
     "mountain": {
-"title": "360° Aircraft Hangar Virtual Tour",
+"title": "360° Red Rock Desert Virtual Tour",
 "type": "equirectangular",
 "panorama": "panorama2.jpg",
       "hfov": 90
