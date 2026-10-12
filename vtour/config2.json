@@ -7,9 +7,9 @@
   },
   "scenes": {
     "mountain": {
-      "title": "Second Mountain Configuration",
-      "type": "equirectangular",
-      "panorama": "panorama.jpg",
+"title": "360° Aircraft Hangar Virtual Tour",
+"type": "equirectangular",
+"panorama": "panorama2.jpg",
       "hfov": 90
     }
   }
