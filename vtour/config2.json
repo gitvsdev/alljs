@@ -1,0 +1,16 @@
+
+{
+  "default": {
+    "firstScene": "mountain",
+    "autoLoad": true,
+    "autoRotate": 2
+  },
+  "scenes": {
+    "mountain": {
+      "title": "Second Mountain Configuration",
+      "type": "equirectangular",
+      "panorama": "panorama.jpg",
+      "hfov": 90
+    }
+  }
+}
