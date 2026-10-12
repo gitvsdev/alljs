@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Same-Origin XML Test</title>
+</head>
+<body>
+  <h2>GitHub XML Path Test</h2>
+  <p id="result">Checking XML...</p>
+
+  <script>
+    fetch("../test.xml")
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("HTTP " + response.status);
+        }
+        return response.text();
+      })
+      .then(xml => {
+        const doc = new DOMParser().parseFromString(
+          xml, "application/xml"
+        );
+        if (doc.querySelector("parsererror")) {
+          throw new Error("Invalid XML");
+        }
+        const layer = doc.querySelector(
+          '[name="github_external_test"]'
+        );
+        document.getElementById("result").textContent =
+          layer ? layer.getAttribute("html") :
+          "XML loaded, but test layer not found";
+      })
+      .catch(err => {
+        document.getElementById("result").textContent =
+          "Error: " + err.message;
+      });
+  </script>
+</body>
+</html>
