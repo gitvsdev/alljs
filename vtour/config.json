@@ -1,10 +1,12 @@
 
 {
   "default": {
-    "firstScene": "mountain",
-    "autoLoad": true,
-    "sceneFadeDuration": 1000
-  },
+  "firstScene": "mountain",
+  "autoLoad": true,
+  "sceneFadeDuration": 1000,
+  "autoRotate": -2,
+  "autoRotateInactivityDelay": 3000
+},
   "scenes": {
     "mountain": {
       "title": "Beautiful Mountain Panorama 2026",
