@@ -7,7 +7,7 @@
   },
   "scenes": {
     "mountain": {
-      "title": "My 360 Mountain Virtual Tour",
+      "title": "Beautiful Mountain Panorama 2026",
       "type": "equirectangular",
       "panorama": "panorama.jpg",
       "hfov": 110
