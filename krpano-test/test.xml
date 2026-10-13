@@ -1,0 +1,15 @@
+
+<krpano version="1.24">
+    <layer name="github_xml_test"
+           type="text"
+           keep="true"
+           visible="true"
+           align="top"
+           y="30"
+           width="420"
+           height="60"
+           bgcolor="0xFFFF00"
+           bgalpha="1.0"
+           html="GITHUB SAME-ORIGIN XML TEST!"
+           css="font-family:Arial; font-size:22px; color:#000000; text-align:center;" />
+</krpano>
