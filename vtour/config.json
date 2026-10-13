@@ -9,7 +9,7 @@
 },
   "scenes": {
     "mountain": {
-      "title": "<b>HTML Test</b> & Safe Viewer",
+      "title": "Direct GitHub JSON Loading Verified",
       "type": "equirectangular",
       "panorama": "panorama.jpg",
       "hfov": 110
